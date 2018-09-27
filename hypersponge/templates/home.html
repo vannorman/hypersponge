@@ -1,0 +1,31 @@
+{% extends 'base.html' %}
+{% load static %}
+	<head>
+		<title> Wild Wild Website </title>
+<link rel="icon" type="image/png" sizes="16x16" href="static/img/favicon_z.png" />		
+	<meta name="google-site-verification" content="KPrCTIkFg3RCIWPoYvQO3QBnFcEqKflrEQI_6ztrwzE" />
+	{% block styles %}
+		{{ block.super }}
+		<link rel='stylesheet' href="/static/css/home.css{{version}}" type='text/css'>
+		<link rel='stylesheet' href="/static/css/imageviewer.css{{version}}" type='text/css'>
+	{% endblock %}
+
+	{% block scripts %}
+		{{ block.super }}
+		<script src='static/js/home.js'|add:version|safe %}'></script>
+		<script src='static/js/imageviewer.js'|add:version|safe ></script>
+	{% endblock %}
+	</head>
+<body>
+
+{% block content %}
+	<div class="quote">
+		* A wild website has appeared *
+	</div>
+	<div id="starline"></div>
+{% endblock %}
+
+
+
+
+
