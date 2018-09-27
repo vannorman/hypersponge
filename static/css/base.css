@@ -5,56 +5,10 @@ body {
     background-attachment: fixed;
 
 }
-#top {
-	position:relative;
-	vertical-align:top;
-	display:block;
-	margin:0 auto;
-	height:120px;
-	width:960px;
-	text-align:left;
+
+body:hover {
+	cursor:pointer;
 }
-
-
-#top .pic1 {
-	display:inline-block;
-    position:relative;
-    margin: 0 auto;
-    top:15px;
-    left:0;
-    width:97px; 
-    height:97px;
-/*    background-image:url('/static/img/bus-card-potrait-v4.png'); */
-/*    border:1px solid gray; */
-    background-repeat:no-repeat;
-    background-size:cover;
-    background-position:center;
-
-    -webkit-border-radius: 300px;
-    -moz-border-radius: 300px;
-    border-radius: 300px; 
-
-}
-
-#top .name {
-	display:inline-block;
-	line-height:97px;
-	height: 97px;
-    position:relative;
-    text-align:left;
-    font-size:35.7px;
-    font-weight:600;
-}
-
-
-#top .text .subtitle {
-    position:relative;
-    margin: 0 auto;
-    text-align:center;
-	top:-10px;
-	
-}
-
 
 #top .links {
 	position:relative;
@@ -112,39 +66,4 @@ body {
 	overflow:hidden;
 	z-index:100;
 }
-
-
-#ninja {
-	background: url('/static/img/ninja.png') no-repeat center;
-	width:25px;
-	height:25px;
-	display:inline-block;
-	position:relative;
-	bottom:-4px;
-	background-size:contain;
-	margin-right:5px;
-}
-#sky1 {
-	position:absolute;
-	left: 0;
-	top:12px;
-	width:calc(50% - 220px);
-	height:110px;
-	background-image:url('/static/img/sf.png');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position-x:0%;
-}
-#sky2 {
-	position:absolute;
-	right: calc(50% - 700px);
-	width:500px;
-	height:110px;
-	background-image:url('/static/img/la.png');
-	background-repeat:no-repeat;
-	background-size:cover;
-	background-position:center;
-}
-
-
 
